@@ -12,7 +12,7 @@ I craft designs that not just look good but performs even better.
 * ✉️  You can contact me at [info.jiitendra@gmail.com](mailto:info.jiitendra@gmail.com)
 * 🤝  I'm open to collaborating on Designing & Web Development Projects.
 
-<h3 align="right">Other Technologies</h3>
+<h3 align="left">Other Technologies</h3>
 
 
 <p align="right">
