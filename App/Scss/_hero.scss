@@ -1,0 +1,45 @@
+.hero {
+
+    &__text {
+        flex-direction: column;
+        row-gap: 1.8875rem;
+        width: 100%;
+        max-width: 33.75rem;
+        margin: 7.8125rem 0 12.5rem 0;
+
+        @include breakpoint-up(medium) {
+            max-width: 54.975rem;
+        }
+
+        @include breakpoint-up(large) {
+            row-gap: 2.5rem;
+            margin: 9rem 0 22.75rem 0;
+        }
+
+        h4 {
+            color: $indigo;
+            font-weight: $lgt;
+
+            @include breakpoint-up(medium) {
+                font-size: $font-9;
+            }
+        }
+
+        h1 {
+            font-size: $font-4;
+            font-weight: $bld;
+
+            @include breakpoint-up(medium) {
+                font-size: $font-1;
+            }
+        }
+
+        p {
+            font-weight: $lgt;
+
+            @include breakpoint-up(medium) {
+                font-size: $font-9;
+            }
+        }
+    }
+}

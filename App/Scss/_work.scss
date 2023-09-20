@@ -1,0 +1,121 @@
+.work {
+
+    .project {
+        gap: 5rem;
+
+        &.rev {
+            @include breakpoint-up(medium) {
+                flex-direction: row-reverse;
+            }
+        }
+
+        @include breakpoint-up(medium) {
+            flex-direction: row;
+            align-items: center;
+        }
+
+        @include breakpoint-up(large) {
+            gap: 9.3875rem;
+        }
+
+        @include breakpoint-up(xlarge) {
+            gap: 11rem;
+        }
+
+        @include breakpoint-up(wide) {
+            gap: 13rem;
+        }
+
+        &__img {
+            img {
+                max-height: 23.75rem;
+                max-width: 23.75rem;
+                width: 100%;
+
+                @include breakpoint-up(medium) {
+                    max-height: 32.5rem;
+                    max-width: 32.5rem;
+                }
+            }
+        }
+        &__txt {
+            gap: 1.8875rem;
+
+            @include breakpoint-up(medium) {
+                gap: 2rem;
+            }
+
+            @include breakpoint-up(large) {
+                gap: 2.5rem;
+            }
+
+            h4 {
+                font-size: $font-10;
+                font-weight: $reg;
+
+                @include breakpoint-up(large) {
+                    font-size: $font-9;
+                }
+                
+
+            }
+
+            h2 {
+                font-size: $font-6;
+                font-weight: $reg;
+                width: 100%;
+                max-width: 18.5rem;
+
+                @include breakpoint-up(medium) {
+                    font-size: $font-4;
+                    max-width: 29.5rem;
+                }
+
+                @include breakpoint-up(large) {
+                    font-size: $font-2;
+                    // max-width: 29.5rem;
+                }
+            }
+
+            a {
+                display: flex;
+                padding: 0.75rem 1.25rem;
+                align-items: center;
+                justify-content: space-between;
+                gap: 0.5625rem;
+                border: 2px solid #6F00FF;
+                width: 100%;
+                max-width: 12.3125rem;
+                border-radius: 0.375rem;
+                font-size: $font-9;
+                font-weight: $reg;
+                color: $indigo;
+                transition: all 300ms ease-in-out;
+
+                @include breakpoint-up(medium) {
+                    font-size: $font-8;
+                    max-width: 13.375rem;
+                }
+            
+                &:hover {
+                    color: $white;
+                    background-color: $indigo;
+
+                    svg path {
+                        stroke: $white;
+                    }
+                }
+
+                svg {
+                    height: 1.875rem;
+                    width: 1.875rem;
+
+                    @include breakpoint-up(medium) {
+                        width: 2.125rem;
+                        height: 2.125rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.contact-sec {
+    background-color: #F1E6FF;;
+
+    &__txt {
+        gap: 2.5rem;
+
+        h4 {
+            font-size: $font-4;
+            font-weight: $bld;
+
+            @include breakpoint-up(medium) {
+                font-size: $font-3;
+            }
+
+            @include breakpoint-up(large) {
+                font-size: $font-2;
+            }
+        }
+        
+        p {
+            max-width: 23.4375rem;
+            font-weight: $lgt;
+            width: 100%;
+
+            @include breakpoint-up(medium) {
+                max-width: 35rem;
+            }
+
+            @include breakpoint-up(large) {
+                font-size: $font-8;
+                max-width: 50rem;
+            }
+        }
+
+        a {
+            color: $white;
+            border-radius: 0.375rem;
+            background: #6F00FF;
+            width: 7.5rem;
+        }
+    }
+}

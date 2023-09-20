@@ -1,0 +1,26 @@
+@keyframes slide-in {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }
+ }
+
+ .slide-in {
+    animation: slide-in 200ms ease-in forwards;
+ }
+
+
+ @keyframes slide-out {
+    from {
+        right: 0%;
+    }
+    to {
+        right: -100%;
+    }
+ }
+
+ .slide-out {
+    animation: slide-out 200ms ease-in forwards;
+ }

@@ -1,0 +1,41 @@
+.footer {
+    padding: 6.25rem 0 1.975rem 0;
+
+    @include breakpoint-up(medium) {
+        padding: 11.6375rem 0 3.9875rem 0;
+    }
+
+    &__social {
+        gap: 1.25rem;
+
+        @include breakpoint-up(medium) {
+            gap: 1.875rem;
+        }
+
+        svg {
+            fill: $neutral-black;
+            width: 1.5rem;
+            height: 1.71431rem;
+
+            @include breakpoint-up(medium) {
+                width: 1.875rem;
+                height: 2.14288rem;
+            }
+        }
+    }
+
+    &__cpy-right {
+
+        h6 {
+            font-size: $font-13;
+            font-weight: $lgt;
+            text-align: center;
+            margin: 1.5625rem 0 0 0;
+            
+            @include breakpoint-up(medium) {
+                font-size: $font-10;
+                margin: 2.5rem 0 0 0;
+            }
+        }
+    }
+}
