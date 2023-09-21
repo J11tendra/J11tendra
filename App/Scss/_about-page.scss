@@ -1,0 +1,155 @@
+.about {
+    gap: 6.25rem;
+
+    @include breakpoint-up(medium) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "col1 col1"
+        "col2 col3"
+        ;
+    }
+
+    &__head {
+
+        @include breakpoint-up(medium) {
+            grid-area: col1;
+            max-width: 70.625rem;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: $font-4;
+            font-weight: $reg;
+
+            @include breakpoint-up(large) {
+                font-size: $font-1;
+            }
+        }
+    }
+
+    &__img {
+        @include breakpoint-up(medium) {
+            grid-area: col3;
+        }
+
+        img {
+            max-height: 23.75rem;
+            max-width: 23.75rem;
+            width: 100%;
+            height: 100%;
+
+            @include breakpoint-up(large) {
+                max-width: 32.5rem;
+                max-height: 32.5rem;
+            }
+        }
+    }
+
+    &__main {
+        gap: 2.5rem;
+
+        @include breakpoint-up(medium) {
+            grid-area: col2;
+        }
+
+        @include breakpoint-up(large) {
+            gap: 3.75rem;
+        }
+
+        p {
+            font-weight: $lgt;
+
+            @include breakpoint-up(large) {
+                font-size: $font-8;
+            }
+        }
+
+        a {
+            width: 9.875rem;
+        }
+    }
+}
+
+.about-value {
+    gap: 4.6375rem;
+
+    @include breakpoint-up(medium) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "col1 col2"
+        ;
+    }
+
+    @include breakpoint-up(large) {
+        gap: 7rem;
+    }
+
+    &__img {
+        gap: 6.25rem;
+
+        img {
+            max-width: 23.75rem;
+            max-height: 23.75rem;
+            height: 100%;
+            width: 100%;
+
+            @include breakpoint-up(large) {
+                max-height: 32.5rem;
+                max-width: 32.5rem;
+            }
+        }
+    }
+
+    &__txt {
+        gap: 2.5rem;
+
+        @include breakpoint-up(large) {
+            gap: 3.75rem;
+        }
+
+        h2 {
+            font-size: $font-5;
+            font-weight: $reg;
+
+            @include breakpoint-up(large) {
+                font-size: $font-2;
+            }
+        }
+
+        .value-main {
+            gap: 6.25rem;
+
+            @include breakpoint-up(large) {
+                gap: 9.375rem;
+            }
+
+            &__txt {
+                gap: 1.875rem;
+
+                @include breakpoint-up(large) {
+                    gap: 2.5rem;
+                }
+
+                h4 {
+                    font-size: $font-7;
+                    font-weight: $reg;
+
+                    @include breakpoint-up(large) {
+                        font-size: $font-5;
+                    }
+                }
+
+                p {
+                    font-weight: $lgt;
+                    width: 100%;
+                    max-width: 25rem;
+
+                    @include breakpoint-up(large) {
+                        max-width: 32.5rem;
+                        font-size: $font-8;
+                    }
+                }
+            }
+        }
+    }
+}
