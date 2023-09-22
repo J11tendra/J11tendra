@@ -66,6 +66,13 @@ p {
             text-align: right;
         }
     }
+
+    &-row-lrg {
+
+        @include breakpoint-up(medium) {
+            flex-direction: row;
+        }
+    }
 }
 
 .grid {
@@ -93,13 +100,13 @@ p {
     }
 
     @include breakpoint-up(xlarge) {
-        padding-left: 15rem;
-        padding-right: 15rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
     }
 
     @include breakpoint-up(wide) {
-        padding-left: 23rem;
-        padding-right: 23rem;
+        padding-left: 15rem;
+        padding-right: 15rem;
     }
 }
 

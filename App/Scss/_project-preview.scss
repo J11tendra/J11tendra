@@ -1,0 +1,259 @@
+.preview {
+
+    &__intro {
+        gap: 6.25rem;
+
+        @include breakpoint-up(large) {
+            gap: 9.6975rem;
+        }
+
+        .intro__head {
+
+            h1 {
+                font-size: $font-4;
+                font-weight: $reg;
+
+                @include breakpoint-up(large) {
+                    font-size: $font-1;
+                    font-weight: $reg;
+                }
+            }
+        }
+
+        .intro__description {
+            gap: 3.75rem;
+
+            @include breakpoint-up(large) {
+                gap: 7rem;
+            }
+
+            @include breakpoint-up(xlarge) {
+                gap: 11rem;
+            }
+
+            @include breakpoint-up(wide) {
+                gap: 13rem;
+            }
+
+            .item {
+                gap: 1.25rem;
+
+                h3 {
+                    font-size: $font-10;
+                    font-weight: $reg;
+
+                    @include breakpoint-up(large) {
+                        font-size: $font-8;
+                    }
+                }
+
+                h6 {
+                    font-size: $font-7;
+                    font-weight: $lgt;
+
+                    @include breakpoint-up(large) {
+                        font-size: $font-6;
+                    }
+                }
+
+                p {
+                    font-size: $font-11;
+                    font-weight: $lgt;
+
+                    @include breakpoint-up(large) {
+                        font-size: $font-10;
+                        max-width: 25.625rem;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .intro__img {
+
+            img {
+                max-width: 26.875rem;
+                max-height: 16.62413rem;
+                width: 100%;
+                height: 100%;
+
+                @include breakpoint-up(medium) {
+                    max-width: 60.875rem;
+                    max-height: 40.62413rem;
+                }
+
+                @include breakpoint-up(large) {
+                    max-width: 87.5rem;
+                    max-height: 54.125rem;
+                }
+            }
+        }
+    }
+}
+
+// Info Constant:-
+.info {
+    gap: 3.75rem;
+
+    @include breakpoint-up(medium) {
+        gap: 13rem;
+    }
+
+    h2 {
+        font-size: $font-6;
+        font-weight: $reg;
+
+        @include breakpoint-up(xlarge) {
+            font-size: $font-3;
+        }
+    }
+
+    p {
+        font-weight: $lgt;
+        width: 100%;
+        max-width: 38.75rem;
+
+        @include breakpoint-up(xlarge) {
+            max-width: 48.75rem;
+            font-size: $font-8;
+        }
+    }
+}
+
+.Preview-1 {
+    gap: 6.25rem;
+
+    .design-img {
+        
+        img {
+            height: 26.57388rem;
+            max-width: 26.875rem;
+            width: 100%;
+            height: 100%;
+            
+            @include breakpoint-up(medium) {
+                max-width: 45.5rem;
+                max-height: 45.5rem;
+            }
+
+            @include breakpoint-up(large) {
+                max-width: 62.5rem;
+                max-height:62.5rem;
+            }
+        }
+    }
+}
+
+.wireframes {
+
+    h2 {
+        font-size: $font-6;
+        font-weight: $reg;
+    }
+
+    &__item {
+        gap: 3.75rem;
+        grid-template-areas: 
+        "wrfr-2"
+        "wrfr-1"
+        "wrfr-3"
+        ;
+
+        @include breakpoint-up(medium) {
+            gap: 2rem;
+            grid-template-areas: 
+            "wrfr-1 wrfr-2"
+            "wrfr-3 wrfr-2"
+            ;
+        }
+
+        @include breakpoint-up(medium) {
+            gap: 4rem;
+        }
+
+        .main {
+            grid-area: wrfr-2;
+
+            img {
+                max-height: 32.3rem;
+                max-width: 23.75rem;
+                width: 100%;
+                height: 100%;
+
+                @include breakpoint-up(medium) {
+                    max-height: 60rem;
+                    max-width: 25rem;
+                }
+
+                @include breakpoint-up(large) {
+                    max-height: 68rem;
+                    max-width: 50rem;
+                }
+
+                @include breakpoint-up(wide) {
+                    max-height: 85rem;
+                    max-width: 55rem;
+                }
+            }
+        }
+
+        .frst {
+            grid-area: wrfr-1;
+
+            img {
+                max-height: 46.55rem;
+                max-width: 23.75rem;
+                height: 100%;
+                width: 100%;
+
+                @include breakpoint-up(medium) {
+                    max-height: 30rem;
+                    max-width: 15rem;
+                }
+
+                @include breakpoint-up(large) {
+                    max-height: 36.75rem;
+                    max-width: 18.75rem;
+                }
+
+                @include breakpoint-up(wide) {
+                    max-height: 45rem;
+                    max-width: 30rem;
+                }
+            }
+        }
+
+        .lst {
+            grid-area: wrfr-3;
+
+            img {
+                height: 100%;
+                width: 100%;
+                
+                @include breakpoint-up(medium) {
+                    max-height: 30rem;
+                    max-width: 15rem;
+                }
+
+                @include breakpoint-up(large) {
+                    max-height: 20rem;
+                    max-width: 20rem;
+                }
+
+                @include breakpoint-up(wide) {
+                    max-height: 40rem;
+                    max-width: 30rem;
+                }
+            }
+        }
+
+        .frame {
+
+            p {
+                font-size: $font-12;
+                font-weight: $lgt;
+                text-align: center;
+            }
+        }
+    }
+}

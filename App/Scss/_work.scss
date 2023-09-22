@@ -19,14 +19,15 @@
         }
 
         @include breakpoint-up(xlarge) {
-            gap: 11rem;
+            gap: 12rem;
         }
 
         @include breakpoint-up(wide) {
-            gap: 13rem;
+            gap: 14rem;
         }
 
         &__img {
+            flex: 1;
             img {
                 max-height: 23.75rem;
                 max-width: 23.75rem;
@@ -40,6 +41,7 @@
         }
         &__txt {
             gap: 1.8875rem;
+            flex: 1;
 
             @include breakpoint-up(medium) {
                 gap: 2rem;
