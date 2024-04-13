@@ -25,6 +25,9 @@ I'm a self-taught full-stack developer passionate about building meaningful proj
   <a href="https://www.linkedin.com/in/jiitendrachoudhary/">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
+  <a href="https://dev.to/jitendrachoudhary">
+    <img height="52px" width="52px" src="https://raw.githubusercontent.com/J11tendra/J11tendra/a7661bfd89bec935d54c6d390f64065623bd0a12/profile-assets/dev-to-svgrepo-com.svg"/>
+  </a>
   <a href="https://twitter.com/JiitendraC">
     <img src="https://skillicons.dev/icons?i=twitter" />
   </a>
