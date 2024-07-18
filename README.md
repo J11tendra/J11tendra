@@ -14,7 +14,7 @@ I'm a self-taught full-stack developer passionate about building meaningful proj
 </p>
 <p align="center">
   <a href="#">
-    <img src="https://skillicons.dev/icons?i=git,github,linux,ubuntu,yarn,npm,figma,sass" />
+    <img src="https://skillicons.dev/icons?i=git,github,linux,ubuntu,yarn,npm,figma,sass,tailwindcss" />
   </a>
 </p>
 
