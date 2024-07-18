@@ -9,7 +9,7 @@ I'm a self-taught full-stack developer passionate about building meaningful proj
 <h1 align="center">My Skills</h1>
 <p align="center">
   <a href="#">
-    <img src="https://skillicons.dev/icons?i=js,nodejs,cpp,react,py,express,nextjs,postman,mysql,mongodb,postgres,prisma" />
+    <img src="https://skillicons.dev/icons?i=js,nodejs,cpp,react,py,express,nextjs,postman,firebase,mysql,mongodb,postgres,prisma" />
   </a>
 </p>
 <p align="center">
