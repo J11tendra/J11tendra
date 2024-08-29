@@ -3,7 +3,7 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) there, I'm Jitendra Choudhary! 
 ==========================================================================================================================================
 
-I'm a self-taught full-stack developer passionate about building meaningful projects and contributing to open-source. I love learning through hands-on experience.
+I'm a full-stack developer passionate about building meaningful projects and contributing to open-source. I love learning through hands-on experience.
 
 
 <h1 align="center">My Skills</h1>
